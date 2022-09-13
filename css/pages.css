@@ -3,5 +3,69 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(11, 98, 98);
+    position: relative;
 
 }
+
+ /* About Us part start  */
+nav{
+    width: 85%;
+    margin: auto;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 20px;
+    
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(207, 216, 215);
+    font-size: 20px;
+
+}
+nav ul li a:hover{
+    color: black;
+    transition: none;
+
+}
+
+nav img{
+    width: 200px;
+    position: relative;
+    
+}
+
+.aboutUsContent{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 120px;
+
+}
+
+.aboutUsContent img{
+
+    width: 430px;
+    height: 450px;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+.aboutUsText{
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+ /* About Us part finish */

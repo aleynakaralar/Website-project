@@ -156,27 +156,3 @@ footer{
 }
 
 
-.aboutUs nav{
-    background-color: rgb(11, 98, 98);
-    position: relative;
-    width: 100%;
-    margin: auto;
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;  
-}
-
-.aboutUs nav ul li a{
-    text-decoration: none;
-    text-transform: capitalize;
-    color: rgb(207, 216, 215);
-    font-size: 20px;
-    
-}
-
-.aboutUs nav ul li a:hover{
-    color: black;
-    transition: none;
-
-}
