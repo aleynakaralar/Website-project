@@ -105,3 +105,46 @@ nav img{
     font-size: large;
  }
  
+ /* Project part finish */
+/* Contact us part start */
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.form h2{
+    color: aliceblue;
+    margin-bottom: 20px;   
+}
+
+.form input{
+    background-color: aliceblue;
+    width: 300px;
+    height: 20px;
+    margin: 10px;
+}
+.form label{
+    color: aliceblue;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.form textarea{
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 1px;
+    border-radius: 12px;
+}
+.submitbutton{
+    background-color: bisque;
+    border: rgb(0, 0, 0) 2px;
+    border-radius: 8px;
+    width: 150px;
+    height: 20px;
+}
+/* Contact us part finish */
